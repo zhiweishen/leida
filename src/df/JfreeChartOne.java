@@ -1,4 +1,4 @@
-package df;
+﻿package df;
 
 
 
@@ -52,12 +52,12 @@ public class JfreeChartOne extends ApplicationFrame {
        pie.setLabelFont(new Font("SansSerif",Font.BOLD,12));
        pie.setNoDataMessage("No data available");
        pie.setCircular(true);
-       pie.setLabelGap(0.01D);//间距
-       return a;
+      // pie.setLabelGap(0.01D);//间距
+     //  return a;
     }
     public static JPanel  createJPanel (){
-       JFreeChart jfreechart = createJFreeChart(createPieDataset());
-       return new ChartPanel(jfreechart);
+     //  JFreeChart jfreechart = createJFreeChart(createPieDataset());
+      // return new ChartPanel(jfreechart);
     }
     
    
